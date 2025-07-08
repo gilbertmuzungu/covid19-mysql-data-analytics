@@ -32,7 +32,7 @@ order by 1,2;
 -- Identifying duplicate rows
 -- Identify duplicate entries in the coviddeaths table
 -- Groups data by date and location, and counts occurrences
--- Returns only those combinations where more than one record exists (i.e., duplicates)
+-- Returns only those combinations where more than one record exists 
 
 SELECT date, location, COUNT(*) AS count
 FROM coviddeaths
